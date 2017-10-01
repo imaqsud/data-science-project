@@ -1,6 +1,5 @@
 import numpy as np
 
-# Change False to True to see Numpy arrays in action
 if True:
     array = np.array([1, 4, 5, 8], float)
     print(array)
@@ -8,7 +7,6 @@ if True:
     array = np.array([[1, 2, 3], [4, 5, 6]], float)  # a 2D array/Matrix
     print(array)
 
-# Change False to True to see array indexing and slicing in action
 if True:
     array = np.array([1, 4, 5, 8], float)
     print(array)
@@ -20,7 +18,6 @@ if True:
     array[1] = 5.0
     print(array[1])
 
-# Change False to True to see Matrix indexing and slicing in action
 if True:
     two_D_array = np.array([[1, 2, 3], [4, 5, 6]], float)
     print(two_D_array)
@@ -31,7 +28,6 @@ if True:
     print("")
     print(two_D_array[:, 2])
 
-# Change False to True to see Array arithmetics in action
 if True:
     array_1 = np.array([1, 2, 3], float)
     array_2 = np.array([5, 2, 6], float)
@@ -41,7 +37,6 @@ if True:
     print("")
     print(array_1 * array_2)
 
-# Change False to True to see Matrix arithmetics in action
 if True:
     array_1 = np.array([[1, 2], [3, 4]], float)
     array_2 = np.array([[5, 6], [7, 8]], float)
