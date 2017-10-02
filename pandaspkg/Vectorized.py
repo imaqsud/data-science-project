@@ -1,7 +1,6 @@
 import numpy
 from pandas import DataFrame, Series
 
-
 def avg_medal_count():
 
     countries = ['Russian Fed.', 'Norway', 'Canada', 'United States',
